@@ -1,0 +1,63 @@
+body{
+    background-color: #6bcaed;
+}
+
+#title{
+    color:rgb(38, 18, 219);
+    font-weight: 1000;
+    
+    border:7px groove rgb(23, 168, 235);
+    border-radius: 30px;
+    background-color: #f3f6f8;
+    padding:20px;
+    margin:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card{
+    background-color: #f3f6f8;
+    padding: 20px;;
+}
+
+#cardbody{
+   
+    background: linear-gradient(to right,#D9C7A2,#5E6961);
+    
+}
+
+
+#name{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:beige;
+    padding-bottom:6px; 
+    
+}
+
+#flag{
+    border:2px solid black;
+    height:250px;
+}
+
+#capital,#region,#lating,#countrycode,#button{
+    padding:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#weather{
+    padding: 2px;
+    color:blue;
+    margin:1px;
+    background: linear-gradient(to right,#D9C7A2,#5E6961);
+    text-align: center;
+
+}
